@@ -1,0 +1,45 @@
+Project Ideas
+Feel free to go ahead and continue practicing with following script and project ideas 🙂
+
+
+Simple Automations
+
+- Find files that have not been modified for over 30 days. Using os.walk(path) and os.path.getmtime(path)
+
+- Search and print files, and their paths, that are larger than a given size. Using os.walk(path) and os.path.getsize(path)
+
+- Extract all questions from a Word document using regular expressions import re and the python-docx library.
+
+- Check the content of a given directory once every hour and write each files file name and its size to a new column in an excel file. Use the openpyxl library and  os.path.getsize(path together with the schedule library.
+
+
+API Based Automations
+
+- Enrich the Telegram Spotify Bot with the feature to list favorite songs and refactor the authentication to allow for multiple users.
+
+- Create a script that checks the status of a sold-out product of choice and use the Twilio API to send you a message once the product is available again. 
+
+
+Frontend Automation
+
+- Filter the images to like in the Instagram Bot for specific Tags like 'vegan' or 'sports'.
+
+- Create a scheduler from the chapter 'Simple Automations' that starts your Instagram bot every day at 12 o'clock.
+
+- Enhance the Twitter bot so it stores all followed accounts into a file on your computer and unfollows them after 1 week automatically.
+
+- Integrate all your created bots into the Telegram bot. Now you can start them from everywhere and every time from your Smartphone if your Computer is online.
+
+
+Advanced Automations using Reverse Engineered APIs
+
+- Advance the Grepolis bot to create an unlimited building queue. Use the Telegram bot to add buildings to the queue.
+
+- Try to login via reverse engineered API into a Browsergame of your choice.
+
+
+Google Spreadsheet Scripting
+
+- Add more graphs based on displaying different formats, on the data we've crawled from Twitter.
+
+- Create a crawler tracking the prices of selected products from Amazon over time.
